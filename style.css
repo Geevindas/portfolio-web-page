@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 100%;
+    
+}
+
+.b-area{
+    background-color: black;
+    min-height: 100vh;
+    border-right: 5px solid gold;
+}
+
+.info-area{
+    background-color: rgb(242, 251, 255);
+    min-height: 100vh;
+}
+
+.info-content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.main-txt{ 
+   font-size: 3rem;
+   color: rgb(88, 85, 85);
+   line-height: 50px;
+}
+
+.nxt-txt{
+    color: rgb(99, 92, 92);
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.topics{
+    color:rgb(189, 163, 18);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+
+.education td{
+    vertical-align: text-top;
+    padding-right: 25px;
+}
+
+.education td:nth-child(odd){
+    color: rgb(189, 163, 18);
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.tables td{
+    vertical-align: text-top;
+    padding-bottom: 0.5rem;
+    padding-right: 4.2rem;
+}
+
+.tables td:nth-child(odd){
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.tables td:nth-child(evan){
+    font-size: 0.1rem;
+    color: blue;
+}
+
+.tables li{
+    list-style-type: none;
+}
+
+.profile{
+    width: 65%;
+    aspect-ratio: 1/1;
+    border-radius: 60%;
+    margin-top: 22%;
+    border: 5px solid gold;
+
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
